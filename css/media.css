@@ -1,0 +1,122 @@
+@media (max-width:1150px) {
+    .room-info{
+        flex-direction: column;
+        gap: 75px;
+    }
+}
+@media (max-width: 1045px) {
+  .hero-info {
+    flex-direction: column;
+  }
+  .about-info {
+    flex-direction: column-reverse;
+    gap: 50px;
+  }
+}
+@media (max-width:768px) {
+    .benifit-top{
+        flex-direction: column;
+    }
+    .benifit-bottom{
+        flex-direction: column-reverse;
+    }
+    .benifit-top,.benifit-bottom{
+        gap: 10px;
+    }
+    .b-t-right, .b-b-left{
+        width: 300px;
+    }
+    .box h1 {
+        font-size: 12px;
+    }
+    .box{
+        width: 310px;
+    }
+    .footer-info {
+        flex-direction: column;
+    }
+    .footer-left{
+        flex-direction: row;
+        gap: 40px;
+    }
+}
+@media (max-width: 640px) {
+  .nav-list a,
+  li,
+  .nav .base-btn {
+    display: none;
+    gap: 0;
+  }
+  .nav-list svg {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .hero-left {
+    margin-bottom: 30px;
+  }
+  .hero-right {
+    width: 420px;
+    height: 420px;
+  }
+}
+@media (max-width: 425px) {
+  .hero-right {
+    width: 300px;
+  }
+  .about-info {
+    gap: 50px;
+  }
+  .about-left {
+    height: 376px;
+  }
+  .hero-left h1 {
+    font-size: 35px;
+  }
+  .about-info h1 {
+    margin-bottom: 10px;
+    font-size: 26px;
+  }
+  .room-left h1{
+    font-size: 22px;
+  }
+  .room-left p{
+    max-width: 310px;
+    font-size: 12px;
+  }
+  
+  .testimoni-info p{
+    max-width: 300px;
+  }
+}
+@media (max-width: 375px) {
+  .hero-right {
+    width: 310px;
+    height: 376px;
+  }
+  .about-left {
+    width: 270px;
+    height: 376px;
+  }
+  .r-info-top h1{
+    font-size: 24px;
+  }
+  .card h1{
+    font-size: 24px;
+  }
+  .cards .card p{
+    max-width: 300px;
+  }
+  .card img{
+    width: 300px;
+  }
+  .box svg{
+    width: 30px;
+    height: 30px;
+  }
+  .room-left p:last-child{
+    font-size: 12px;
+  }
+  .room-left .base-btn{
+    font-size: 12px;
+  }
+}
